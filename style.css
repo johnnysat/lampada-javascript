@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #000;
+}
+
+h1 {
+    text-align: center;
+    margin: 25px;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    text-align: center;
+    border: solid 1px ;
+    width: 350px;
+    height: 425px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin: 25px;
+}
+
+footer {
+    text-align: center;
+    margin: 25px;
+}
+
+img, button {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.turnLamp {
+    margin-top: 25px;
+    margin-bottom: 5px
+}
+
+.turnLamp p {
+    font-size: 12px;
+    margin: 15px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border: line;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.63);
+}
+
+footer p {
+    color: white;
+}
+footer a {
+    color: inherit;
+    
+}
